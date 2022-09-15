@@ -16,8 +16,12 @@ function Header() {
             </Row>
             <Row>
               <Col className="d-flex align-items-center">
-                <h1 class="display-2 text-start fw-bold fst-italic">
-                  Iam Arul
+                <h1 class="display-2 text-start fw-bold fst-italic">Iam </h1>{" "}
+                <h1
+                  style={{ marginLeft: "10px" , color:"#0D6EFD" }}
+                  class="display-2 fw-bold fst-italic"
+                >
+                  Arul
                 </h1>
               </Col>
             </Row>
@@ -41,7 +45,7 @@ function Header() {
               </Col>
             </Row>
           </Col>
-          <Col sm={1} md={4} >
+          <Col sm={1} md={4}>
             <Image
               rounded={true}
               class="mx-auto d-block"

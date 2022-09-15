@@ -15,7 +15,7 @@ function About() {
         <Col>
           <p class="fs-2 text-center fw-light fst-italic">
             A Full Stack Web Developer who can write code using React, Redux and
-            CSS on frontend, Nodejs , MongoDB and express on backend to build applications.
+            CSS on frontend, Nodejs , MongoDB and Express on backend to build applications.
             Likes to solve Data Structure and Algorithm problems.
           </p>
         </Col>
