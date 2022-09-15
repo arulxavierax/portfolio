@@ -4,22 +4,23 @@ import { Container, Row, Col } from "react-bootstrap";
 function Footer() {
   return (
     <Container
-      fluid
+    class=" text-center"
+      fluid={true}
       style={{
+        backgroundColor:"#4070F4",
         marginTop: "100px",
-        marginBottom: "100px",
-        border: "1px solid",
         height: "auto",
+        color:"white"
       }}
     >
-      <Row style={{ border: "1px solid" }}>
+      <Row>
         <Col>
-          <h1>GET IN TOUCH</h1>
+          <h1 class="fw-bold">GET IN TOUCH</h1>
         </Col>
       </Row>
-      <Row style={{ border: "1px solid" }}>
+      <Row>
         <Col>
-          <h1>content</h1>
+          <h5>Arul Xavier</h5>
         </Col>
       </Row>
     </Container>

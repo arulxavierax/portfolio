@@ -1,12 +1,54 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
+import CrabManager from "./Resources/CrabmanagerClone.png";
+import Netmeds from "./Resources/NetmedsClone.png";
+import Yoox from "./Resources/YooxClone.png";
 
 function Projects() {
   return (
-    <Container fluid style={{ marginTop: "100px", border: "1px solid", height: "200px"}}>
-      <Row style={{ border: "1px solid"}}>
+    <Container style={{ marginTop: "100px" }}>
+      <Row>
         <Col>
-          <h1>Projects</h1>
+          <h1 class=" text-center fw-bold">Projects</h1>
+        </Col>
+      </Row>
+      <Row style={{ marginTop: "50px" }}>
+        <Col>
+          <Card>
+            <Card.Img variant="top"  src={CrabManager} />
+            <Card.Body>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+      </Row>
+      <Row style={{ marginTop: "50px" }}>
+        <Col>
+          <Card>
+            <Card.Img variant="top" src={Netmeds} />
+            <Card.Body>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+      </Row>
+      <Row style={{ marginTop: "50px" }}>
+        <Col>
+          <Card>
+            <Card.Img variant="top" src={Yoox} />
+            <Card.Body>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+            </Card.Body>
+          </Card>
         </Col>
       </Row>
     </Container>

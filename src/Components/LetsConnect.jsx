@@ -1,17 +1,68 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
+import { Link, Navigate, NavLink } from "react-router-dom";
+import Linkedin from "./Resources/ConnectLinkedin.png";
+import Github from "./Resources/ConnectGithub.png";
+import Phone from "./Resources/ConnectPhone.png";
+import Email from "./Resources/ConnectEmail.png";
 
 function LetsConnect() {
   return (
-    <Container
-      fluid
-      style={{ marginTop: "100px", border: "1px solid", height: "200px" }}
-    >
+    <Container style={{ marginTop: "100px" }}>
       <Row>
-        <Col style={{ border: "1px solid" }}>
-          <h1>Lets's Connect</h1>
+        <Col style={{ marginBottom: "50px" }}>
+          <h2 class="text-start fw-bold fst-italic">Lets's Connect</h2>
         </Col>
       </Row>
+      <div style={{ display: "flex" , margin:"10px" }}>
+        <div>
+          <Image width={30} src={Email} />
+        </div>
+        <div>
+          <h6 style={{ marginLeft: "10px" }} class="text-start">
+            arulxavier2121@gmail.com
+          </h6>
+        </div>
+      </div>
+      <div style={{ display: "flex" ,margin:"10px" }}>
+        <div>
+          <Image width={30} src={Phone} />
+        </div>
+        <div>
+          <h6 style={{ marginLeft: "10px" }} class="text-start">
+            {" "}
+            +91 9497302870
+          </h6>
+        </div>
+      </div>
+      <div style={{ display: "flex" ,margin:"10px" }}>
+        <div>
+          <Image width={30} src={Linkedin} />
+        </div>
+        <div>
+          <h6 style={{ marginLeft: "10px" }} class="text-start">
+            {" "}
+            <a
+              href="https://www.linkedin.com/in/arul-xavier/"
+              class="link-dark"
+            >
+              Arul Xavier
+            </a>
+          </h6>
+        </div>
+      </div>
+      <div style={{ display: "flex" , margin:"10px"}}>
+        <div>
+          <Image width={30} src={Github} />
+        </div>
+        <div>
+          <h6 style={{ marginLeft: "10px" }} class="text-start">
+            <a href="https://github.com/arulxavierax" class="link-dark">
+              arulxavierax
+            </a>
+          </h6>
+        </div>
+      </div>
     </Container>
   );
 }
