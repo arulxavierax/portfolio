@@ -10,8 +10,8 @@ function LetsConnect() {
   return (
     <Container style={{ marginTop: "100px" }}>
       <Row>
-        <Col style={{ marginBottom: "50px" }}>
-          <h2 class="text-start fw-bold fst-italic">Lets's Connect</h2>
+        <Col style={{ marginBottom: "10px" }}>
+          <h1 class="text-start fw-bold">Lets's Connect</h1>
         </Col>
       </Row>
       <div style={{ display: "flex" , margin:"10px" }}>
