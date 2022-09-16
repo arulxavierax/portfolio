@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import { Link, Navigate, NavLink } from "react-router-dom";
 import Linkedin from "./Resources/ConnectLinkedin.png";
 import Github from "./Resources/ConnectGithub.png";
 import Phone from "./Resources/ConnectPhone.png";

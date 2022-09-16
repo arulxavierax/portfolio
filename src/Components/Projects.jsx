@@ -12,13 +12,13 @@ import react from "./Resources/reactTech.png";
 function Projects() {
   return (
     <Container
-      class="text-center"
+       class=" text-center"
+      fluid={true}
       style={{
         marginTop: "100px",
         background: "#0a0e18",
         paddingTop: "30px",
         paddingBottom: "50px",
-        borderRadius: "20px",
       }}
     >
       <Row>
@@ -29,7 +29,7 @@ function Projects() {
         </Col>
       </Row>
       <Row style={{ marginTop: "50px" }}>
-        <div class="col-sm-7 mx-auto">
+        <div class="col-sm-6 mx-auto">
           <Card>
             <Card.Img variant="top" class="mw-50" src={CrabManager} />
             <Card.Body>
@@ -74,7 +74,7 @@ function Projects() {
         </div>
       </Row>
       <Row style={{ marginTop: "50px" }}>
-        <div class="col-sm-7 mx-auto">
+        <div class="col-sm-6 mx-auto">
           <Card style={{ padding: "10px" }}>
             <Card.Img variant="top" src={Netmeds} />
             <Card.Body>
@@ -122,7 +122,7 @@ function Projects() {
         </div>
       </Row>
       <Row style={{ marginTop: "50px" }}>
-        <div class="col-sm-7 mx-auto">
+        <div class="col-sm-6 mx-auto">
           <Card style={{ padding: "10px" }}>
             <Card.Img variant="top" src={Yoox} />
             <Card.Body>

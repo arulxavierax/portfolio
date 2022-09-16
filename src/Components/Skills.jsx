@@ -19,7 +19,7 @@ function Skills() {
       </Row>
       <Row>
         <Col sm={1} md={4} lg={3}>
-            <Image class="mx-auto d-block" src={HTML} alt="HTM" L />
+            <Image class="mx-auto d-block" src={HTML} alt="HTM"  />
             <h4 style={{ marginLeft: "40px" }}>HTML</h4>
         </Col>
         <Col sm={1} md={4} lg={3}>

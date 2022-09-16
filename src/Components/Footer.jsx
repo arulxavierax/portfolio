@@ -12,7 +12,6 @@ function Footer() {
       fluid={true}
       style={{
         backgroundColor: "rgb(43 54 84)",
-        height: "auto",
         color: "white",
         margin: "auto",
         marginTop: "150px",
