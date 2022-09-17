@@ -39,8 +39,11 @@
 
 .header {
   background-image: url("./Components/Resources/bg.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
   padding: 100px;
-  padding-bottom: 200px;
+  padding-bottom: 250px;
+  color:white
 }
 
 .card {
@@ -55,7 +58,8 @@
 
 .card:hover {
   transform: scale(1.05);
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
 
 .skill {
   border-radius: 4px;

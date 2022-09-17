@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import Photo from "./Resources/Arul.png";
 import Resume from "./Resources/arul_xavier_resume.pdf";
 
 function Header() {
@@ -39,21 +38,13 @@ function Header() {
                     download
                     href={Resume}
                     role="button"
-                    class="btn btn-outline-dark btn-lg"
+                    class="btn btn-outline-light btn-lg"
                   >
                     Resume
                     <i style={{ marginLeft: "5px" }} i class="fa fa-download" />
                   </a>
                 </Col>
               </Row>
-            </Col>
-            <Col sm={1} md={4}>
-              <Image
-                rounded={true}
-                class="mx-auto d-block"
-                fluid={true}
-                src={Photo}
-              />
             </Col>
           </Row>
         </Container>

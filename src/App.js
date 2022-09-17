@@ -5,6 +5,7 @@ import LetsConnect from './Components/LetsConnect';
 import Skills from './Components/Skills';
 import Projects from './Components/Projects';
 import Footer from './Components/Footer';
+import GithubCalendar from './Components/GithubCalendar';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <LetsConnect />
       <Skills />
       <Projects />
+      <GithubCalendar />
       <Footer />
     </div>
   );
