@@ -12,11 +12,12 @@ import react from "./Resources/reactTech.png";
 function Projects() {
   return (
     <Container
-       class=" text-center"
+      class=" text-center"
       fluid={true}
+      // #3c4758
       style={{
         marginTop: "100px",
-        background: "#0a0e18",
+        background: "#5f5e5c",
         paddingTop: "30px",
         paddingBottom: "50px",
       }}
@@ -28,8 +29,8 @@ function Projects() {
           </h1>
         </Col>
       </Row>
-      <Row style={{ marginTop: "50px" }}>
-        <div class="col-sm-6 mx-auto">
+      <Row sm={1} md={2} lg={4} style={{ marginTop: "50px" }}>
+        <div class="col-sm-7 mx-auto" style={{ margin: "10px" }}>
           <Card>
             <Card.Img variant="top" class="mw-50" src={CrabManager} />
             <Card.Body>
@@ -72,9 +73,7 @@ function Projects() {
             </Card.Body>
           </Card>
         </div>
-      </Row>
-      <Row style={{ marginTop: "50px" }}>
-        <div class="col-sm-6 mx-auto">
+        <div class="col-sm-5 mx-auto" style={{ margin: "10px" }}>
           <Card style={{ padding: "10px" }}>
             <Card.Img variant="top" src={Netmeds} />
             <Card.Body>
@@ -120,9 +119,7 @@ function Projects() {
             </Card.Body>
           </Card>
         </div>
-      </Row>
-      <Row style={{ marginTop: "50px" }}>
-        <div class="col-sm-6 mx-auto">
+        <div class="col-sm-5 mx-auto" style={{ margin: "10px" }}>
           <Card style={{ padding: "10px" }}>
             <Card.Img variant="top" src={Yoox} />
             <Card.Body>

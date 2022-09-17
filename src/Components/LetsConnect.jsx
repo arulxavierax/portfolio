@@ -7,10 +7,10 @@ import Email from "./Resources/ConnectEmail.png";
 
 function LetsConnect() {
   return (
-    <Container style={{ marginTop: "100px" }}>
+    <Container style={{ marginTop: "150px" }}>
       <Row>
         <Col style={{ marginBottom: "10px" }}>
-          <h1 class="text-start fw-bold">Lets's Connect</h1>
+          <h1 class="text-start fw-bold">Let's Connect</h1>
         </Col>
       </Row>
       <div style={{ display: "flex" , margin:"10px" }}>
