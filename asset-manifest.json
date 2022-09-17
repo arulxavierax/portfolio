@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6843632d.css",
-    "main.js": "/portfolio/static/js/main.766d8129.js",
+    "main.css": "/portfolio/static/css/main.fe6affd2.css",
+    "main.js": "/portfolio/static/js/main.8bc7214f.js",
     "static/js/787.7f04e32f.chunk.js": "/portfolio/static/js/787.7f04e32f.chunk.js",
     "static/media/YooxClone.png": "/portfolio/static/media/YooxClone.97a6856e3095d776e007.png",
-    "static/media/bg.jpg": "/portfolio/static/media/bg.f42ecb4bc8e4c4ed24be.jpg",
+    "static/media/bg.jpg": "/portfolio/static/media/bg.7f5552f3dcd2d08b76de.jpg",
     "static/media/NetmedsClone.png": "/portfolio/static/media/NetmedsClone.210e24d9dac80d1276a5.png",
     "static/media/Arul.png": "/portfolio/static/media/Arul.08a10dc458ea2c35c883.png",
     "static/media/arul_xavier_resume.pdf": "/portfolio/static/media/arul_xavier_resume.386e42cf3a7362215186.pdf",
     "static/media/CrabmanagerClone.png": "/portfolio/static/media/CrabmanagerClone.af9574e37f6958b57560.png",
     "static/media/ConnectPhone.png": "/portfolio/static/media/ConnectPhone.8972772895049788e35c.png",
     "index.html": "/portfolio/index.html",
-    "main.6843632d.css.map": "/portfolio/static/css/main.6843632d.css.map",
-    "main.766d8129.js.map": "/portfolio/static/js/main.766d8129.js.map",
+    "main.fe6affd2.css.map": "/portfolio/static/css/main.fe6affd2.css.map",
+    "main.8bc7214f.js.map": "/portfolio/static/js/main.8bc7214f.js.map",
     "787.7f04e32f.chunk.js.map": "/portfolio/static/js/787.7f04e32f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6843632d.css",
-    "static/js/main.766d8129.js"
+    "static/css/main.fe6affd2.css",
+    "static/js/main.8bc7214f.js"
   ]
 }
