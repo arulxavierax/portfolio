@@ -25,7 +25,7 @@ function GithubCalendar() {
         </Col>
       </Row>
       <Row>
-        <Col>
+        <Col className="gitCalendar">
           <div className="calendar"></div>
         </Col>
       </Row>

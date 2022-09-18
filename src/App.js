@@ -6,6 +6,7 @@ import Skills from './Components/Skills';
 import Projects from './Components/Projects';
 import Footer from './Components/Footer';
 import GithubCalendar from './Components/GithubCalendar';
+import SoftSkills from './Components/SoftSkills';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About/>
       <LetsConnect />
       <Skills />
+      <SoftSkills />
       <Projects />
       <GithubCalendar />
       <Footer />

@@ -64,7 +64,7 @@ function Projects() {
                   <a
                     href="https://github.com/arulxavierax/sweet-wind-8288"
                     role="button"
-                    class="btn btn-outline-dark"
+                    class="btn btn-outline-info"
                   >
                     View Code
                   </a>
@@ -110,7 +110,7 @@ function Projects() {
                   <a
                     href="https://github.com/arulxavierax/Netmeds-Clone"
                     role="button"
-                    class="btn btn-outline-dark"
+                    class="btn btn-outline-info"
                   >
                     View Code
                   </a>
@@ -158,7 +158,7 @@ function Projects() {
                   <a
                     href="https://github.com/arulxavierax/Project-U2-YOOX"
                     role="button"
-                    class="btn btn-outline-dark"
+                    class="btn btn-outline-info"
                   >
                     View Code
                   </a>
