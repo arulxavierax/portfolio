@@ -5,6 +5,9 @@ import { Col, Container, Row } from "react-bootstrap";
 
 function GithubCalendar() {
 
+  GitHubCalendar(".calendar", "arulxavierax");
+  GitHubCalendar(".calendar", "arulxavierax", { responsive:true});
+
   useEffect(()=>{
     GitHubCalendar(".calendar", "arulxavierax", {
       responsive: true,
@@ -12,7 +15,7 @@ function GithubCalendar() {
         return fetch(`https://your-proxy.com/github?user=${arulxavierax}`);
       },
     }).then((r) => r.text());
-  },[GitHubCalendar])
+  },[])
 
   return (
     <Container style={{ marginTop: "100px" }}>
