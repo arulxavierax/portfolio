@@ -4,18 +4,16 @@ import GitHubCalendar from "github-calendar";
 import { Col, Container, Row } from "react-bootstrap";
 
 function GithubCalendar() {
-
   GitHubCalendar(".calendar", "arulxavierax");
-  GitHubCalendar(".calendar", "arulxavierax", { responsive:true});
+  GitHubCalendar(".calendar", "arulxavierax", { responsive: true });
 
-  useEffect(()=>{
+  useEffect(() => {
     GitHubCalendar(".calendar", "arulxavierax", {
-      responsive: true,
       proxy(arulxavierax) {
         return fetch(`https://your-proxy.com/github?user=${arulxavierax}`);
       },
     }).then((r) => r.text());
-  },[])
+  }, []);
 
   return (
     <Container style={{ marginTop: "100px" }}>

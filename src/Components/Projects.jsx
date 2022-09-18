@@ -29,8 +29,8 @@ function Projects() {
           </h1>
         </Col>
       </Row>
-      <Row sm={1} md={2} lg={4} style={{ marginTop: "50px" }}>
-        <div class="col-sm-7 mx-auto" style={{ margin: "10px" }}>
+      <Row md={2} lg={3} style={{ marginTop: "50px" }}>
+        <div class="col-sm-5 mx-auto" style={{ margin: "10px" }}>
           <Card>
             <Card.Img variant="top" class="mw-50" src={CrabManager} />
             <Card.Body>
@@ -39,8 +39,10 @@ function Projects() {
                 <h4>CRAB MANAGER (Clone)</h4>{" "}
               </Card.Title>
               <Card.Text>
-                Crab Manager is a website that helping you to: Lose weight
-                quickly , Reduce inflammation , etc
+                Crab Manager is a website that helping you to features a macros
+                calculator that allows you to customize macros based on diet
+                (like Keto), activity levels, weight loss targets,Reduce
+                inflammation and more.
               </Card.Text>
               <div style={{ display: "flex", margin: "10px" }}>
                 <div>
@@ -128,8 +130,7 @@ function Projects() {
               </Card.Title>
               <Card.Text>
                 Yoox is the world's leading online store for fashion, design and
-                art that lasts a lifetime and beyond. Established in 2000, for
-                Men, Women and Kids.
+                art that lasts a lifetime and beyond. Established in 2000
                 <br /> A Collaborative project completed in five day along with
                 five Web Developers
               </Card.Text>
