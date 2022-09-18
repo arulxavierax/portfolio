@@ -19,11 +19,11 @@ function Footer() {
       }}
     >
       <Row>
-        <Col>
-          <h1 class="fw-bold text-center">
+        <Col style={{paddingTop: "10px",}}>
+          <h3 class="fw-bold text-center">
             {" "}
             <u>GET IN TOUCH</u>
-          </h1>
+          </h3>
         </Col>
       </Row>
       <Row>
