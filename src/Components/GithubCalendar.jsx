@@ -1,7 +1,7 @@
 import React from "react";
+import { useEffect } from "react";
 import GitHubCalendar from "github-calendar";
 import { Col, Container, Row } from "react-bootstrap";
-import { useEffect } from "react";
 
 function GithubCalendar() {
 
@@ -23,7 +23,7 @@ function GithubCalendar() {
       </Row>
       <Row>
         <Col>
-          <div class="calendar"></div>
+          <div className="calendar"></div>
         </Col>
       </Row>
     </Container>
