@@ -15,10 +15,10 @@ function Footer() {
         color: "white",
         margin: "auto",
         marginTop: "150px",
-        padding: "30px",
+        paddingBottom: "10px",
       }}
     >
-      <Row style={{ margin: "10px" }}>
+      <Row>
         <Col>
           <h1 class="fw-bold text-center">
             {" "}
@@ -26,8 +26,8 @@ function Footer() {
           </h1>
         </Col>
       </Row>
-      <Row style={{ margin: "10px" }}>
-        <Col>
+      <Row>
+        <Col style={{paddingBottom: "10px",}}>
           <h5 class="text-center">Arul Xavier</h5>
         </Col>
       </Row>
@@ -35,7 +35,6 @@ function Footer() {
         class="text-center"
         style={{
           margin: "auto",
-          marginTop:"20px",
           width: "40%",
           display: "flex",
           justifyContent: "space-around",
