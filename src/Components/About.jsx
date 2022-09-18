@@ -21,8 +21,8 @@ function About() {
                 src={Photo}
               />
             </Col>
-        <div class="col">
-          <span class="fs-2 text-center fw-light fst-italic">
+        <div class="col text-center">
+          <span class="fs-2 fw-light fst-italic">
             A Full Stack Web Developer with good communication skills and learning abilities, who can write code using React, Redux and
             CSS on frontend, Nodejs , MongoDB and Express on backend to build applications.
             Likes to solve Data Structure and Algorithm problems.Looking forwards to work in a product based company to enhance the experince and skills.
