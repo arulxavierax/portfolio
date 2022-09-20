@@ -1,6 +1,8 @@
 # Portfolio
 
 A web page contains the informations about myself and the what i have been doing in the past few months.
+
+
 Tech Stack:
 ----
 >- REACT | Bootstrap
