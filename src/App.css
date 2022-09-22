@@ -37,6 +37,10 @@
   }
 } */
 
+body{
+  cursor:pointer;
+}
+
 .header {
   background-image: url("./Components/Resources/bg.jpg");
   background-repeat: no-repeat;

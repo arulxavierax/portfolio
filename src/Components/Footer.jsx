@@ -43,13 +43,13 @@ function Footer() {
         <div>
           <Image class="mx-auto d-block" width={30} fluid={true} src={email} />
           <h6>
-            <u>Email</u>
+            <u>E-mail</u>
           </h6>
         </div>
         <div>
           <Image class="mx-auto d-block" width={30} fluid={true} src={phone} />
           <h6>
-            <u>Pone</u>
+            <u>Phone</u>
           </h6>
         </div>
         <div>

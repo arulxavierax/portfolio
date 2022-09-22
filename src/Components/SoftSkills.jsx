@@ -6,7 +6,7 @@ function SoftSkills() {
     <Container style={{marginTop:"100px"}} >
         <Row>
             <Col>
-            <h1>Soft Skills</h1>
+            <h1 class="text-start fw-bold">Soft Skills</h1>
             </Col>
         </Row>
         <Row>

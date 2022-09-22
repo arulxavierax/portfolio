@@ -15,10 +15,10 @@ function GithubCalendar() {
   }, []);
 
   return (
-    <Container style={{ marginTop: "100px" }}>
+    <Container style={{ marginTop: "150px" }}>
       <Row>
         <Col style={{ marginBottom: "10px" }}>
-          <h1 class="text-start fw-bold">Github Calendar</h1>
+          <h1 class="text-center fw-bold">Github Calendar</h1>
         </Col>
       </Row>
       <Row>
