@@ -12,6 +12,7 @@ import react from "./Resources/reactTech.png";
 function Projects() {
   return (
     <Container
+      id="projects"
       class=" text-center"
       fluid={true}
       // #3c4758

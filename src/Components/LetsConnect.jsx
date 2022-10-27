@@ -7,13 +7,13 @@ import Email from "./Resources/ConnectEmail.png";
 
 function LetsConnect() {
   return (
-    <Container style={{ marginTop: "150px" }}>
+    <Container id="contact" style={{ marginTop: "150px" }}>
       <Row>
         <Col style={{ marginBottom: "10px" }}>
           <h1 class="text-start fw-bold">Let's Connect</h1>
         </Col>
       </Row>
-      <div style={{ display: "flex" , margin:"10px" }}>
+      <div style={{ display: "flex", margin: "10px" }}>
         <div>
           <Image width={30} src={Email} />
         </div>
@@ -23,7 +23,7 @@ function LetsConnect() {
           </h6>
         </div>
       </div>
-      <div style={{ display: "flex" ,margin:"10px" }}>
+      <div style={{ display: "flex", margin: "10px" }}>
         <div>
           <Image width={30} src={Phone} />
         </div>
@@ -34,7 +34,7 @@ function LetsConnect() {
           </h6>
         </div>
       </div>
-      <div style={{ display: "flex" ,margin:"10px" }}>
+      <div style={{ display: "flex", margin: "10px" }}>
         <div>
           <Image width={30} src={Linkedin} />
         </div>
@@ -50,7 +50,7 @@ function LetsConnect() {
           </h6>
         </div>
       </div>
-      <div style={{ display: "flex" , margin:"10px"}}>
+      <div style={{ display: "flex", margin: "10px" }}>
         <div>
           <Image width={30} src={Github} />
         </div>
