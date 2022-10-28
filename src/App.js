@@ -16,13 +16,13 @@ function App() {
       <Navbars />
       <Header />
       <About />
-      <LetsConnect />
       <Skills />
       <SoftSkills />
       <Projects />
       <Statistics />
       <GithubCalendar />
-      <Footer />
+      <LetsConnect />
+      {/* <Footer /> */}
     </div>
   );
 }

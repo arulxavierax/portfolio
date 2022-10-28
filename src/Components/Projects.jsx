@@ -8,6 +8,7 @@ import html from "./Resources/htmlTech.png";
 import css from "./Resources/cssTech.png";
 import chakraui from "./Resources/chakraui.png";
 import react from "./Resources/reactTech.png";
+import Cards from "./Cards";
 
 function Projects() {
   return (
@@ -32,142 +33,48 @@ function Projects() {
       </Row>
       <Row md={2} lg={3} style={{ marginTop: "50px" }}>
         <div class="col-sm-5 mx-auto" style={{ margin: "10px" }}>
-          <Card>
-            <Card.Img variant="top" class="mw-50" src={CrabManager} />
-            <Card.Body>
-              <Card.Title>
-                {" "}
-                <h4>CRAB MANAGER (Clone)</h4>{" "}
-              </Card.Title>
-              <Card.Text>
-                Crab Manager is a website that helping you to features a macros
-                calculator that allows you to customize macros based on diet
-                (like Keto), activity levels, weight loss targets,Reduce
-                inflammation and more.
-              </Card.Text>
-              <div style={{ display: "flex", margin: "10px" }}>
-                <div>
-                  <Image src={react} />
-                </div>
-                <div>
-                  <Image src={chakraui} />
-                </div>
-              </div>
-              <div style={{ display: "flex" }}>
-                <div style={{ margin: "10px" }}>
-                  <a
-                    href="https://sweet-wind-8288.vercel.app/"
-                    role="button"
-                    class="btn btn-primary"
-                  >
-                    Go Live
-                  </a>
-                </div>
-                <div style={{ margin: "10px" }}>
-                  <a
-                    href="https://github.com/arulxavierax/sweet-wind-8288"
-                    role="button"
-                    class="btn btn-outline-info"
-                  >
-                    View Code
-                  </a>
-                </div>
-              </div>
-            </Card.Body>
-          </Card>
+          <Cards
+            titleSrc={CrabManager}
+            src1={react}
+            src2={chakraui}
+            src3=""
+            heading="CRAB MANAGER (Clone)"
+            content="Crab Manager is a website that helping you to features a macros
+             calculator that allows you to customize macros based on diet (like
+             Keto), activity levels, weight loss targets,Reduce inflammation and
+             more."
+            liveLink="https://sweet-wind-8288.vercel.app/"
+            githubLink="https://github.com/arulxavierax/sweet-wind-8288"
+          />
         </div>
         <div class="col-sm-5 mx-auto" style={{ margin: "10px" }}>
-          <Card style={{ padding: "10px" }}>
-            <Card.Img variant="top" src={Netmeds} />
-            <Card.Body>
-              <Card.Title>
-                <h4>NETMEDS (Clone)</h4>
-              </Card.Title>
-              <Card.Text>
-                Netmeds is a online pharmacy where you can buy medicines.
-                <br /> A Collaborative project completed in five day along with
-                four Web Developers.
-              </Card.Text>
-              <div style={{ display: "flex", margin: "10px" }}>
-                <div>
-                  <Image src={html} />
-                </div>
-                <div>
-                  <Image src={js} />
-                </div>
-                <div>
-                  <Image src={css} />
-                </div>
-              </div>
-              <div style={{ display: "flex" }}>
-                <div style={{ margin: "10px" }}>
-                  <a
-                    href="https://inspiring-blini-089dcd.netlify.app/"
-                    role="button"
-                    class="btn btn-primary"
-                  >
-                    Go Live
-                  </a>
-                </div>
-                <div style={{ margin: "10px" }}>
-                  <a
-                    href="https://github.com/arulxavierax/Netmeds-Clone"
-                    role="button"
-                    class="btn btn-outline-info"
-                  >
-                    View Code
-                  </a>
-                </div>
-              </div>
-            </Card.Body>
-          </Card>
+          <Cards
+            titleSrc={Netmeds}
+            src1={html}
+            src2={js}
+            src3={css}
+            heading="NETMEDS (Clone)"
+            content="Netmeds is a online pharmacy where you can buy medicines.
+             A Collaborative project completed in five day along with
+             four Web Developers."
+            liveLink="https://inspiring-blini-089dcd.netlify.app/"
+            githubLink="https://github.com/arulxavierax/Netmeds-Clone"
+          />
         </div>
         <div class="col-sm-5 mx-auto" style={{ margin: "10px" }}>
-          <Card style={{ padding: "10px" }}>
-            <Card.Img variant="top" src={Yoox} />
-            <Card.Body>
-              <Card.Title>
-                <h4>YOOX (Clone)</h4>
-              </Card.Title>
-              <Card.Text>
-                Yoox is the world's leading online store for fashion, design and
-                art that lasts a lifetime and beyond. Established in 2000
-                <br /> A Collaborative project completed in five day along with
-                five Web Developers
-              </Card.Text>
-              <div style={{ display: "flex", margin: "10px" }}>
-                <div>
-                  <Image src={html} />
-                </div>
-                <div>
-                  <Image src={js} />
-                </div>
-                <div>
-                  <Image src={css} />
-                </div>
-              </div>
-              <div style={{ display: "flex" }}>
-                <div style={{ margin: "10px" }}>
-                  <a
-                    href=" https://candid-starship-25c3ab.netlify.app/"
-                    role="button"
-                    class="btn btn-primary"
-                  >
-                    Go Live
-                  </a>
-                </div>
-                <div style={{ margin: "10px" }}>
-                  <a
-                    href="https://github.com/arulxavierax/Project-U2-YOOX"
-                    role="button"
-                    class="btn btn-outline-info"
-                  >
-                    View Code
-                  </a>
-                </div>
-              </div>
-            </Card.Body>
-          </Card>
+          <Cards
+            titleSrc={Yoox}
+            src1={html}
+            src2={js}
+            src3={css}
+            heading="YOOX (Clone)"
+            content="Yoox is the world's leading online store for fashion, design and
+            art that lasts a lifetime and beyond. Established in 2000.
+           A Collaborative project completed in five day along with
+            five Web Developers"
+            liveLink="https://candid-starship-25c3ab.netlify.app/"
+            githubLink="https://github.com/arulxavierax/Project-U2-YOOX"
+          />
         </div>
       </Row>
     </Container>
