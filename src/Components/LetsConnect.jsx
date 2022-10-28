@@ -22,7 +22,7 @@ function LetsConnect() {
       )
       .then(
         (result) => {
-          console.log("sent");
+          console.log(result, "sent");
         },
         (error) => {
           console.log(error.text);
