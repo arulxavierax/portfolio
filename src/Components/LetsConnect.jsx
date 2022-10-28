@@ -5,6 +5,7 @@ import Linkedin from "./Resources/ConnectLinkedin.png";
 import Github from "./Resources/ConnectGithub.png";
 import Phone from "./Resources/ConnectPhone.png";
 import Email from "./Resources/ConnectEmail.png";
+import Alert from "react-bootstrap/Alert";
 
 function LetsConnect() {
   const form = useRef();
@@ -21,12 +22,13 @@ function LetsConnect() {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          console.log("sent");
         },
         (error) => {
           console.log(error.text);
         }
       );
+    e.target.reset();
   };
 
   return (
@@ -44,7 +46,8 @@ function LetsConnect() {
           <div
             style={{
               borderRadius: "10px",
-              backgroundColor: "lightblue",
+              backgroundColor: "#322e2f",
+              color: "#ffffff",
               padding: "20px",
             }}
           >
@@ -76,7 +79,11 @@ function LetsConnect() {
                   as="textarea"
                   name="message"
                 />
-                <Button size="large" type="submit">
+                <Button
+                  style={{ marginTop: "10px" }}
+                  size="large"
+                  type="submit"
+                >
                   Send
                 </Button>
               </Form.Group>
