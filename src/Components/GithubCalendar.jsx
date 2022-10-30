@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
 import GitHubCalendar from "github-calendar";
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Image, Row } from "react-bootstrap";
 
 function GithubCalendar() {
   useEffect(() => {
@@ -25,6 +25,32 @@ function GithubCalendar() {
         <Col className="gitCalendar">
           <div className="calendar"></div>
         </Col>
+      </Row>
+
+      <Row style={{ marginTop: "50px" }}>
+        <Col>
+          <a href="https://github.com/arulxavierax">
+            <Image
+              width={"100%"}
+              src="https://github-readme-stats.vercel.app/api?username=arulxavierax&show_icons=true&theme=midnight-purple"
+            />
+          </a>
+        </Col>
+        <Col>
+          <a href="https://github.com/arulxavierax">
+            <Image
+              width={"100%"}
+              src="https://github-readme-stats.vercel.app/api/top-langs/?username=arulxavierax&layout=compact"
+            />
+          </a>
+        </Col>
+        <a href="https://github.com/arulxavierax">
+          <Image
+            width={"50%"}
+            style={{ display: "block", margin: "auto" }}
+            src="https://github-readme-streak-stats.herokuapp.com/?user=arulxavierax"
+          />
+        </a>
       </Row>
     </Container>
   );

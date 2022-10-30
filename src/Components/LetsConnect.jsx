@@ -5,7 +5,6 @@ import Linkedin from "./Resources/ConnectLinkedin.png";
 import Github from "./Resources/ConnectGithub.png";
 import Phone from "./Resources/ConnectPhone.png";
 import Email from "./Resources/ConnectEmail.png";
-import Alert from "react-bootstrap/Alert";
 
 function LetsConnect() {
   const form = useRef();
