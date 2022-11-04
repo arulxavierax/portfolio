@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import Resume from "./Resources/arul_xavier_resume.pdf";
+import Resume from "./Resources/Arul_xavier_resume.pdf";
 
 function Header() {
   return (

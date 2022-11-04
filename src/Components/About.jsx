@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import Photo from "./Resources/Arul.png";
+import Photo from "./Resources/Arul.jpg";
 
 function About() {
   return (

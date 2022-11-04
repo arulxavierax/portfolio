@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Image } from "react-bootstrap";
 
-function Cards({ titleSrc, src1, src2 ,src3, content ,heading , liveLink , githubLink }) {
+function Cards({ titleSrc, src1, src2 ,src3,src4,src5, content ,heading , liveLink , githubLink }) {
   return (
     <Card>
       <Card.Img variant="top" class="mw-50" src={titleSrc} />
@@ -22,6 +22,12 @@ function Cards({ titleSrc, src1, src2 ,src3, content ,heading , liveLink , githu
           </div>
           <div>
             <Image src={src3} />
+          </div>
+          <div>
+            <Image src={src4} />
+          </div>
+          <div>
+            <Image src={src5} />
           </div>
         </div>
         <div style={{ display: "flex" }}>

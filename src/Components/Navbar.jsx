@@ -21,6 +21,7 @@ function Navbars() {
             <Nav.Link eventKey={1}>
               <Link
                 to={"#about"}
+                smooth
                 style={{ textDecoration: "none", color: "inherit" }}
               >
                 About
@@ -28,26 +29,38 @@ function Navbars() {
             </Nav.Link>
             <Nav.Link eventKey={2}>
               <Link
-                to={"#contact"}
-                style={{ textDecoration: "none", color: "inherit" }}
-              >
-                Contact
-              </Link>
-            </Nav.Link>
-            <Nav.Link eventKey={3}>
-              <Link
                 to={"#skills"}
+                smooth
                 style={{ textDecoration: "none", color: "inherit" }}
               >
                 Skills
               </Link>
             </Nav.Link>
-            <Nav.Link eventKey={4}>
+            <Nav.Link eventKey={3}>
               <Link
                 to={"#projects"}
+                smooth
                 style={{ textDecoration: "none", color: "inherit" }}
               >
                 Projects
+              </Link>
+            </Nav.Link>
+            <Nav.Link eventKey={4}>
+              <Link
+                to={"#contact"}
+                smooth
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                Contact
+              </Link>
+            </Nav.Link>
+            <Nav.Link eventKey={5}>
+              <Link
+                to="#"
+                smooth
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                Resume
               </Link>
             </Nav.Link>
           </Nav>
