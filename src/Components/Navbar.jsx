@@ -12,7 +12,7 @@ function Navbars() {
             smooth
             style={{ textDecoration: "none", color: "inherit" }}
           >
-            Portfolio
+            Home
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -54,14 +54,11 @@ function Navbars() {
                 Contact
               </Link>
             </Nav.Link>
-            <Nav.Link eventKey={5}>
-              <Link
-                to="#"
-                smooth
-                style={{ textDecoration: "none", color: "inherit" }}
-              >
-                Resume
-              </Link>
+            <Nav.Link
+              href="https://drive.google.com/file/d/1sba6OCfsMBR4fuJjyKniTsw6oU_-a1CF/view"
+              eventKey={5}
+            >
+              Resume
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
