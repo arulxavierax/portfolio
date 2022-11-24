@@ -9,9 +9,21 @@ import GithubCalendar from "./Components/GithubCalendar";
 import SoftSkills from "./Components/SoftSkills";
 import Statistics from "./Components/Statistics";
 import Navbars from "./Components/Navbar";
+import Loader from "./Components/Loader";
+import { useEffect, useState } from "react";
 
 function App() {
-  return (
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true);
+    let timer = setTimeout(() => {
+      setLoading(false);
+      return () => clearInterval(timer);
+    }, 1000);
+  }, []);
+  return loading ? (
+    <Loader />
+  ) : (
     <div>
       <Navbars />
       <Header />
@@ -22,7 +34,7 @@ function App() {
       <Statistics />
       <GithubCalendar />
       <LetsConnect />
-      {/* <Footer /> */}
+      {/* <Footer /> */})
     </div>
   );
 }
