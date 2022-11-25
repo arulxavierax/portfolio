@@ -55,6 +55,7 @@ function Navbars() {
               </Link>
             </Nav.Link>
             <Nav.Link
+              target="_blank"
               href="https://drive.google.com/file/d/1sba6OCfsMBR4fuJjyKniTsw6oU_-a1CF/view"
               eventKey={5}
             >

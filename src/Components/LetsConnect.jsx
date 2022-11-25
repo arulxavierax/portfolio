@@ -119,6 +119,7 @@ function LetsConnect() {
               <h6 style={{ marginLeft: "10px" }} class="text-start">
                 {" "}
                 <a
+                  target="_blank"
                   href="https://www.linkedin.com/in/arul-xavier/"
                   class="link-dark"
                 >
@@ -133,7 +134,11 @@ function LetsConnect() {
             </div>
             <div>
               <h6 style={{ marginLeft: "10px" }} class="text-start">
-                <a href="https://github.com/arulxavierax" class="link-dark">
+                <a
+                  target="_blank"
+                  href="https://github.com/arulxavierax"
+                  class="link-dark"
+                >
                   arulxavierax
                 </a>
               </h6>
