@@ -56,7 +56,7 @@ function Navbars() {
             </Nav.Link>
             <Nav.Link
               target="_blank"
-              href="https://drive.google.com/file/d/1sba6OCfsMBR4fuJjyKniTsw6oU_-a1CF/view"
+              href="https://drive.google.com/file/d/1sba6OCfsMBR4fuJjyKniTsw6oU_-a1CF/view?usp=share_link"
               eventKey={5}
             >
               Resume
