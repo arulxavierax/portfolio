@@ -48,7 +48,7 @@ function Projects() {
             heading="SEPHORA (Clone)"
             content="Sephora is a French multinational retailer of personal care and beauty products.Sephora offers beauty products including cosmetics, skincare, body,etc.Collaborative project completed in five days along with four members."
             githubLink="https://github.com/Ankur982/dull-letter-5131"
-            liveLink="https://sephora-pink.vercel.app/"
+            liveLink="https://client-seven-nu.vercel.app/"
           />
         </div>
         <div class="col-sm-5 mx-auto" style={{ margin: "10px" }}>
