@@ -14,6 +14,7 @@ import MongoDB from "./Resources/mongodbTech.png";
 import Node from "./Resources/nodejsTech.png";
 import Express from "./Resources/expressTech.png";
 import Cards from "./Cards";
+import Flipkart from "./Resources/Flipkart.png";
 
 function Projects() {
   return (
@@ -37,6 +38,21 @@ function Projects() {
         </Col>
       </Row>
       <Row md={2} lg={3} style={{ marginTop: "50px" }}>
+        <div class="col-sm-5 mx-auto" style={{ margin: "10px" }}>
+          <Cards
+            titleSrc={Flipkart}
+            src1={react}
+            src2={MongoDB}
+            src3={Node}
+            src4={Express}
+            src5={chakraui}
+            heading="Flipkart (Clone)"
+            content="Flipkart is an Online Shopping Site for Mobiles, Electronics,
+            Furniture, Grocery, Lifestyle, Books & More."
+            githubLink="https://github.com/arulxavierax/flipkartClone"
+            liveLink="https://flipkart-ten.vercel.app/"
+          />
+        </div>
         <div class="col-sm-5 mx-auto" style={{ margin: "10px" }}>
           <Cards
             titleSrc={Sephora}
@@ -90,8 +106,7 @@ function Projects() {
             src3={css}
             heading="YOOX (Clone)"
             content="Yoox is the world's leading online store for fashion, design and
-            art that lasts a lifetime and beyond. Established in 2000.
-           A Collaborative project completed in five day along with
+            art that lasts a lifetime and beyond.A Collaborative project completed in five day along with
             five Web Developers"
             liveLink="https://candid-starship-25c3ab.netlify.app/"
             githubLink="https://github.com/arulxavierax/Project-U2-YOOX"
